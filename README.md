@@ -4,11 +4,13 @@ Este Script envia el guión en ingles de la pelicula `Shrek` completa por whatsa
 
 ## Instrucciones
 
-1- Desde el navegador, idealmente en el computador, abra WhatsApp web.
-2- Ingrese a una ventana de chat, luego inspeccione cualquier elemento, dirigase a la consola.
-3- Copie y pege todo el contenido del archivo `scriptV01.js`. Puede hacerlo haciendo click en Raw -> ctrl+A -> ctrl+C.
-4- Dirigase al navegador, pege todo el contenido y haga click en el enter
-5- Vea el mundo arder.
+1. Desde el navegador, idealmente en el computador, abra WhatsApp web.
+2. Ingrese a una ventana de chat, luego inspeccione cualquier elemento, dirigase a la consola.
+3. Copie y pege todo el contenido del archivo `scriptV01.js`. Puede hacerlo haciendo click en Raw -> ctrl+A -> ctrl+C.
+4. Dirigase al navegador, pege todo el contenido y haga click en el enter
+5. Vea el mundo arder.
+
+©Pedro Yanez. Casi todos los derechos reservados...
 
 <hr/>
 
