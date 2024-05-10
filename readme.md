@@ -4,7 +4,7 @@ Script diseñado para enviar mensajes personalizados a través de WhatsApp Web. 
 
 ## Instrucciones de uso.
 
-1. En el proyecto, diríjase al directorio `./src/` y abra el archivo con su editor de código preferido o el script de su preferencia. Para más información sobre él, haga clic "aquí".
+1. En el proyecto, diríjase al directorio `./src/` y abra el archivo con su editor de código preferido o el script de su preferencia. Para más información sobre él, haga clic "[aquí](#scripts)".
 2. Al final del archivo se encuentra el mensaje a personalizar. Este se encuentra en la función `enviarScript`.
 ```js
 /*
