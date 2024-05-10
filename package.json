@@ -1,0 +1,37 @@
+{
+    "name": "whatsapp-script-sender",
+    "version": "1.0.1",
+    "type": "module",
+    "description": "Script to send spam messages in a chat on whatsapp web",
+    "main": "index.js",
+    "author": "Pedro Yanez",
+    "license": "MIT",
+    "homepage": "https://github.com/wotanCode/WhatsappScriptSender",
+    "scripts": {
+        "lint": "eslint --fix --ext .js .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/wotanCode/WhatsappScriptSender/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wotanCode/WhatsappScriptSender.git"
+    },
+    "keywords": [
+        "whatsapp",
+        "whatsapp-web",
+        "whatsapp-spam",
+        "whatsapp-spammer",
+        "whatsapp-script",
+        "whatsapp-script-sender"
+    ],
+    "devDependencies": {
+        "standard": "^17.1.0"
+    },
+    "eslintConfig": {
+        "extends": "./node_modules/standard/eslintrc.json"
+    }
+}
+
+
