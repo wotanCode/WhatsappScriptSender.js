@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "type": "commonjs",
     "description": "Script to send spam messages in a chat on whatsapp web",
-    "main": "index.js",
+    "main": "src/script_001.js",
     "author": "Pedro Yanez",
     "license": "MIT",
     "homepage": "https://github.com/wotanCode/WhatsappScriptSender",
