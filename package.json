@@ -1,7 +1,7 @@
 {
     "name": "whatsapp-script-sender",
     "version": "1.0.1",
-    "type": "text/javascript"
+    "type": "commonjs",
     "description": "Script to send spam messages in a chat on whatsapp web",
     "main": "index.js",
     "author": "Pedro Yanez",
