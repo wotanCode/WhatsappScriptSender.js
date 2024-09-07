@@ -16,7 +16,7 @@ Script diseñado para enviar mensajes personalizados a través de WhatsApp Web. 
 enviarScript(`
 Creado por Pedro Yanez
 Más sobre el proyecto en
-https://github.com/wotanCode/WhatsappScriptSender
+https://github.com/pedroelhumano/WhatsappScriptSender
 Borra esto y escribe tu mensaje personalizado aquí
 `)
 ```
@@ -43,14 +43,14 @@ En el directorio `./src/utils` se encuentran algunas utilidades de interés.
 
 ## Contribuciones
 
-¡Tu contribución es bienvenida para mejorar este proyecto! Si tienes ideas, sugerencias o encuentras errores, por favor, siéntete libre de abrir un problema en el [repositorio del proyecto](https://github.com/wotanCode/WhatsappScriptSender/issues).
+¡Tu contribución es bienvenida para mejorar este proyecto! Si tienes ideas, sugerencias o encuentras errores, por favor, siéntete libre de abrir un problema en el [repositorio del proyecto](https://github.com/pedroelhumano/WhatsappScriptSender/issues).
 
 Si deseas contribuir directamente al código, puedes hacer fork sobre el proyecto, sigue estos pasos para configurar el entorno de desarrollo local:
 
 1. **Clonar el Repositorio:** Clona el repositorio a tu máquina local usando el siguiente comando:
 
     ```
-    git clone https://github.com/wotanCode/WhatsappScriptSender.git
+    git clone https://github.com/pedroelhumano/WhatsappScriptSender.git
     ```
 
 2. **Instalar Dependencias:** Navega al directorio del proyecto y instala las dependencias necesarias ejecutando:
@@ -73,9 +73,9 @@ Si deseas contribuir directamente al código, puedes hacer fork sobre el proyect
 
 ### ¡Sigueme en mis redes!
 
-[![GitHub Followers](https://img.shields.io/github/followers/wotanCode?style=social)](https://github.com/wotanCode)
-[![GitHub Followers](https://img.shields.io/github/stars/wotanCode?style=social)](https://github.com/wotanCode)
+[![GitHub Followers](https://img.shields.io/github/followers/pedroelhumano?style=social)](https://github.com/pedroelhumano)
+[![GitHub Followers](https://img.shields.io/github/stars/pedroelhumano?style=social)](https://github.com/pedroelhumano)
 [![Youtube](https://img.shields.io/badge/Youtube-FF0000?&logo=Youtube&logoColor=white&labelColor=101010)](https://www.youtube.com/channel/UCwISu2hFg7EpOIZ8aV7iS6g?sub_confirmation=1)
-[![Linkedin](https://img.shields.io/badge/Linkedin-00d8fd?&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/pedro-yanez/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/pedroelhumano/?theme=dark)
+[![Linkedin](https://img.shields.io/badge/Linkedin-00d8fd?&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/pedroelhumano/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/pedroelhumano/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?&logo=twitter&logoColor=white&labelColor=101010)](https://www.twitter.com/pedroelhumano)
