@@ -6,17 +6,17 @@
     "main": "src/script_001.js",
     "author": "Pedro Yanez",
     "license": "MIT",
-    "homepage": "https://github.com/wotanCode/WhatsappScriptSender",
+    "homepage": "https://github.com/pedroelhumano/WhatsappScriptSender",
     "scripts": {
         "lint": "eslint --fix --ext .js .",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bugs": {
-        "url": "https://github.com/wotanCode/WhatsappScriptSender/issues"
+        "url": "https://github.com/pedroelhumano/WhatsappScriptSender/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/wotanCode/WhatsappScriptSender.git"
+        "url": "https://github.com/pedroelhumano/WhatsappScriptSender.git"
     },
     "keywords": [
         "whatsapp",
