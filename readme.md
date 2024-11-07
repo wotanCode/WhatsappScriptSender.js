@@ -5,15 +5,15 @@ Script diseñado para enviar mensajes personalizados a través de WhatsApp Web. 
 ## Instrucciones de uso.
 
 1. En el proyecto, diríjase al directorio `./src/` y abra el archivo con su editor de código preferido o el script de su preferencia. Para más información sobre él, haga clic "[aquí](#scripts)".
-2. Al final del archivo se encuentra el mensaje a personalizar. Este se encuentra en la función `enviarScript`.
+2. Al final del archivo se encuentra el mensaje a personalizar. Este se encuentra en la función `sendMessage`.
 ```js
 /*
   MESSAGES TO SEND.
   EDIT THE STRINGS
-  on the function enviarScript()
+  on the function sendMessage()
 */
 
-enviarScript(`
+sendMessage(`
 Creado por Pedro Yanez
 Más sobre el proyecto en
 https://github.com/pedroelhumano/WhatsappScriptSender
@@ -29,7 +29,7 @@ Borra esto y escribe tu mensaje personalizado aquí
 Todos los scripts se envían con una velocidad de 250 milisegundos, esto se define en la propia función del script de la siguiente manera:
 
 ```js
-tiempoDeEspera = 250
+timeSpeed = 250
 ```
 
 Actualmente, el proyecto cuenta con los siguientes scripts:
@@ -73,9 +73,9 @@ Si deseas contribuir directamente al código, puedes hacer fork sobre el proyect
 
 ### ¡Sigueme en mis redes!
 
-[![GitHub Followers](https://img.shields.io/github/followers/pedroelhumano?style=social)](https://github.com/pedroelhumano)
-[![GitHub Followers](https://img.shields.io/github/stars/pedroelhumano?style=social)](https://github.com/pedroelhumano)
+[![GitHub Followers](https://img.shields.io/github/followers/wotanCode?style=social)](https://github.com/wotanCode)
+[![GitHub Stars](https://img.shields.io/github/stars/wotanCode?style=social)](https://github.com/wotanCode)
 [![Youtube](https://img.shields.io/badge/Youtube-FF0000?&logo=Youtube&logoColor=white&labelColor=101010)](https://www.youtube.com/channel/UCwISu2hFg7EpOIZ8aV7iS6g?sub_confirmation=1)
-[![Linkedin](https://img.shields.io/badge/Linkedin-00d8fd?&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/pedroelhumano/)
+[![Linkedin](https://img.shields.io/badge/Linkedin-00d8fd?&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/pedro-yanez/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/pedroelhumano/)
 [![X](https://img.shields.io/badge/X-14171A?&logo=x&logoColor=white&labelColor=101010)](https://www.x.com/pedroelhumano)
