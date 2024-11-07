@@ -1,6 +1,10 @@
 # WhatsappScriptSender
 
-Script diseñado para enviar mensajes personalizados a través de WhatsApp Web. Diseñado para trollear o molestar, ideal para responder a intentos de phishing. Úselo bajo su propio riesgo.
+Script diseñado para enviar mensajes personalizados a través de WhatsApp Web. Diseñado para trollear o molestar, ideal para responder a intentos de phishing.
+
+Este proyecto se inspiró en [SendScriptWhatsApp](https://github.com/Matt-Fontes/SendScriptWhatsApp), creado por Matt Fontes. La idea surgió al ver la utilidad de su herramienta para enviar mensajes de WhatsApp de forma rápida y automatizada, lo que motivó la creación de una solución con leves mejoras.
+
+Úselo bajo su propio riesgo.
 
 ## Instrucciones de uso.
 
