@@ -19,8 +19,6 @@ Este proyecto se inspiró en [SendScriptWhatsApp](https://github.com/Matt-Fontes
 
 sendMessage(`
 Creado por Pedro Yanez
-Más sobre el proyecto en
-https://github.com/pedroelhumano/WhatsappScriptSender
 Borra esto y escribe tu mensaje personalizado aquí
 `)
 ```
