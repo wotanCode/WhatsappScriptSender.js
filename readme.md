@@ -6,10 +6,11 @@ Este proyecto se inspiró en [SendScriptWhatsApp](https://github.com/Matt-Fontes
 
 Úselo bajo su propio riesgo.
 
-## Instrucciones de uso.
+## Instrucciones de uso
 
 1. En el proyecto, diríjase al directorio `./src/` y abra el archivo con su editor de código preferido o el script de su preferencia. Para más información sobre él, haga clic "[aquí](#scripts)".
 2. Al final del archivo se encuentra el mensaje a personalizar. Este se encuentra en la función `sendMessage`.
+
 ```js
 /*
   MESSAGES TO SEND.
@@ -22,6 +23,7 @@ Creado por Pedro Yanez
 Borra esto y escribe tu mensaje personalizado aquí
 `)
 ```
+
 3. Una vez editado el mensaje de su preferencia, copie y pegue todo el contenido del archivo.
 4. Desde el navegador, idealmente en el computador, abra WhatsApp Web. Ingrese a una ventana de chat a la cual desea enviar el script, luego inspeccione cualquier elemento, diríjase a la consola. Pegue todo el script en la consola del navegador.
 5. Vea el mundo arder.
@@ -35,13 +37,19 @@ timeSpeed = 250
 ```
 
 Actualmente, el proyecto cuenta con los siguientes scripts:
-- `script_001`: Base script. Únicamente envía mensajes personalizados por WhatsApp Web.
+
+* `script_001`: Base script. Envía mensajes personalizados por WhatsApp Web.
+* `DOMButtonScanner`: Utilidad para detectar cambios en la estructura del DOM de WhatsApp Web y localizar dinámicamente el botón de envío (`Send`).
+
+> ⚙️ **Nota:** Desde la versión `v2.0.0`, WhatsApp Web cambió su estructura interna, lo que rompió el selector anterior.
+> El script base fue actualizado y ahora utiliza `aria-label` y otros *fallbacks* para funcionar nuevamente.
+> El nuevo `DOMButtonScanner.js` sirve como herramienta auxiliar para futuras detecciones automáticas.
 
 ## Utils
 
 En el directorio `./src/utils` se encuentran algunas utilidades de interés.
 
-- `Shrek-movie-script.txt`: Contiene todo el guion de la película de Shrek, por si deseas enviar un mensaje que tarde más de 30 minutos en enviarse.
+* `Shrek-movie-script.txt`: Contiene todo el guion de la película de Shrek, por si deseas enviar un mensaje que tarde más de 30 minutos en enviarse.
 
 ## Contribuciones
 
@@ -49,29 +57,32 @@ En el directorio `./src/utils` se encuentran algunas utilidades de interés.
 
 Si deseas contribuir directamente al código, puedes hacer fork sobre el proyecto, sigue estos pasos para configurar el entorno de desarrollo local:
 
-1. **Clonar el Repositorio:** Clona el repositorio a tu máquina local usando el siguiente comando:
+1. **Clonar el Repositorio:**
 
-    ```
-    git clone https://github.com/pedroelhumano/WhatsappScriptSender.git
-    ```
+   ```
+   git clone https://github.com/pedroelhumano/WhatsappScriptSender.git
+   ```
 
-2. **Instalar Dependencias:** Navega al directorio del proyecto y instala las dependencias necesarias ejecutando:
+2. **Instalar Dependencias:**
 
-    ```
-    cd WhatsappScriptSender
-    npm install
-    ```
+   ```
+   cd WhatsappScriptSender
+   npm install
+   ```
 
-3. **Realizar Cambios:** Realiza los cambios que desees en el código base.
+3. **Realizar Cambios:** Haz tus ajustes en el código base.
 
-5. **Envío de Pull Request:** Una vez que estés satisfecho con tus cambios, sube tus modificaciones a una rama y envía un Pull Request al repositorio principal. Asegúrate de describir claramente los cambios que has realizado.
+4. **Enviar Pull Request:**
+   Sube tus cambios a una rama y crea un Pull Request al repositorio principal. Describe brevemente las mejoras que realizaste.
 
 ¡Gracias por contribuir al proyecto! 😊
 
-<hr/>
+---
+
 © Pedro Yanez. Casi todos los derechos reservados...
 
-<hr/>
+---
 
 #### Licencia
+
 Este proyecto está bajo la Licencia MIT.

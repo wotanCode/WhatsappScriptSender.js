@@ -1,3 +1,11 @@
+## v2.0.0: DOM Update & Button Scanner Added
+
+- Add `DOMButtonScanner.js` to detect all clickable elements in the current WhatsApp Web DOM (used to identify the new “Send” button).
+- Update `script_001.js` to support the new WhatsApp Web structure and fix the sendButton selector.
+- Keep execCommand('insertText') unchanged (TODO pending).
+- Improve error handling when no send button is found.
+- Bump to major version due to DOM structure changes.
+
 ## v1.0.1: Added Files, Updated Instructions, and Refactored Structure
 - Add `package.json` file.
 - Add `script_001.js` file. This is the base script to spam messages.

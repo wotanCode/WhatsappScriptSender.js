@@ -1,6 +1,6 @@
 {
     "name": "whatsapp-script-sender",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "type": "commonjs",
     "description": "Script to send spam messages in a chat on whatsapp web",
     "main": "src/script_001.js",
@@ -27,7 +27,7 @@
         "whatsapp-script-sender"
     ],
     "devDependencies": {
-        "standard": "^17.1.0"
+        "standard": "17.1.0"
     },
     "eslintConfig": {
         "extends": "./node_modules/standard/eslintrc.json"

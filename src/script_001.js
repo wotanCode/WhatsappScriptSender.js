@@ -5,11 +5,9 @@ async function sendMessage (scriptText, timeSpeed = 250) {
     .filter((line) => line)
 
   const main = document.querySelector('#main')
-  const textarea = main.querySelector('div[contenteditable="true"]')
+  const textarea = main?.querySelector('div[contenteditable="true"]')
 
-  if (!textarea) {
-    throw new Error('No hay una conversación abierta')
-  }
+  if (!textarea) throw new Error('No hay una conversación abierta')
 
   try {
     for (const line of lines) {
@@ -17,14 +15,17 @@ async function sendMessage (scriptText, timeSpeed = 250) {
 
       // TODO: execCommand is Deprecated
       document.execCommand('insertText', false, line)
-
       textarea.dispatchEvent(new Event('input', { bubbles: true }))
 
       await new Promise((resolve) => setTimeout(resolve, timeSpeed))
 
       const sendButton =
+        main.querySelector('[aria-label="Enviar"]') ||
+        main.querySelector('[aria-label="Send"]') ||
         main.querySelector('[data-testid="send"]') ||
         main.querySelector('[data-icon="send"]')
+
+      if (!sendButton) throw new Error('No se encontró el botón de enviar')
 
       sendButton.click()
 
